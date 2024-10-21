@@ -31,10 +31,23 @@ public class Actividad204b {
     System.out.printf(Locale.US, "La multiplicacion de las 2 fracciones es: %d / %d %n", multiplicacion.getNumerador(), multiplicacion.getDenominador());
     System.out.printf(Locale.US, "La division de las 2 fracciones es: %d / %d %n", division.getNumerador(), division.getDenominador());
 
-
-
-
-
+      paquete2.Fraccion sumaOtraVez = new paquete2.Fraccion(suma.getNumerador(), suma.getDenominador());
+      paquete2.Fraccion sumaSimple = sumaOtraVez.simplifica();
+     paquete2.Fraccion restaOtraVez = new paquete2.Fraccion(resta.getNumerador(), resta.getDenominador());
+    paquete2.Fraccion restaSimple = restaOtraVez.simplifica();
+   
+   paquete2.Fraccion multiplicacionOtraVez = new paquete2.Fraccion(multiplicacion.getNumerador(), multiplicacion.getDenominador());
+   paquete2.Fraccion multiplicacionSimple = multiplicacionOtraVez.simplifica();
+   
+   paquete2.Fraccion divisionOtraVez = new paquete2.Fraccion(division.getNumerador(), division.getDenominador());
+   paquete2.Fraccion divisionSimple = divisionOtraVez.simplifica();
+   
+   
+   
+   System.out.printf(Locale.US, "La suma simlificada de las 2 fracciones es: %d%n", sumaSimple.getNum(), sumaSimple.getDen());
+   System.out.printf(Locale.US, "La resta simlificada de las 2 fracciones es: %d%n", restaSimple.getNum(), restaSimple.getDen());
+   System.out.printf(Locale.US, "La multiplicacion simlificada de las 2 fracciones es: %d%n", multiplicacionSimple.getNum(), multiplicacionSimple.getDen());
+   System.out.printf(Locale.US, "La division simlificada de las 2 fracciones es: %d%n", divisionSimple.getNum(), divisionSimple.getDen());
 
   }
 
