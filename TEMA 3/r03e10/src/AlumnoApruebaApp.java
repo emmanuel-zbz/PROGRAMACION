@@ -17,9 +17,9 @@ public class AlumnoApruebaApp {
     
     double notaMedia = (nota1 + nota2 + nota3) / 3;
     
-    if(notaMedia >= 5) {
+    if (notaMedia >= 5) {
       System.out.printf(Locale.US, "El alumno ha aprobado con una nota media de %f", notaMedia);
-    }else {
+    } else {
       System.out.printf(Locale.US, "El alumno ha suspendido con una nota media de %f", notaMedia);
     }
   }
