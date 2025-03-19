@@ -1,0 +1,13 @@
+.cabecera{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.buscador{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
